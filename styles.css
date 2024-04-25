@@ -1,4 +1,5 @@
 :root {
+  --artphil: #00c389;
   --iron: #999e98;
   --bronze: #b08d57;
   --silver: #c0c0c0;
@@ -28,14 +29,22 @@
 }
 
 body {
+  margin: 0;
+  display: flex;
+  flex-direction: column;
   font-family: var(--font);
+  width: 100vw;
+  height: 100vh;
+}
+
+main {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   gap: 3rem;
-  width: 100vw;
-  height: 100vh;
+  width: 100%;
+  height: 100%;
 }
 
 h2 {
@@ -95,6 +104,20 @@ button {
   height: 2rem;
   border-radius: 1rem;
   cursor: pointer;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  background-color: black;
+  color: white;
+  font-family: var(--font);
+  font-size: 1.5rem;
+}
+
+footer a {
+  text-decoration: none;
+  color: var(--artphil);
 }
 
 .ferro {

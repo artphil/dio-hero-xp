@@ -1,0 +1,123 @@
+:root {
+  --iron: #999e98;
+  --bronze: #b08d57;
+  --silver: #c0c0c0;
+  --gold: #d4af37;
+  --platinum: #e5e4e2;
+  --ascending: linear-gradient(
+    0deg,
+    rgba(42, 168, 194, 1) 0%,
+    rgba(255, 187, 32, 1) 100%
+  );
+  --imortal: linear-gradient(
+    45deg,
+    rgba(194, 42, 42, 1) 0%,
+    rgba(105, 178, 114, 1) 50%,
+    rgba(32, 52, 255, 1) 100%
+  );
+  --radiant: radial-gradient(
+    circle,
+    rgba(222, 235, 79, 1) 0%,
+    rgba(143, 237, 61, 1) 20%,
+    rgba(50, 217, 155, 1) 40%,
+    rgba(55, 48, 255, 1) 60%,
+    rgba(176, 10, 217, 1) 80%,
+    rgba(236, 29, 29, 1) 100%
+  );
+  --font: "Exo 2", sans-serif;
+}
+
+body {
+  font-family: var(--font);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 3rem;
+  width: 100vw;
+  height: 100vh;
+}
+
+h2 {
+  color: white;
+  text-shadow: 2px 2px 4px black;
+  font-size: 2rem;
+}
+
+strong {
+  font-weight: 700;
+  font-size: 3rem;
+  color: gray;
+}
+
+div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2rem;
+  box-shadow: 5px 5px 8px 5px gray;
+  border-radius: 2rem;
+  background-color: white;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+}
+
+input {
+  font-family: var(--font);
+  width: 15rem;
+  height: 2rem;
+  padding: 0 1rem;
+  border-radius: 1rem;
+  -moz-appearance: textfield;
+}
+
+input::placeholder {
+  font-family: "Archivo Black", sans-serif;
+  text-align: center;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+button {
+  font-family: var(--font);
+  color: white;
+  background-color: var(--bronze);
+  width: 15rem;
+  height: 2rem;
+  border-radius: 1rem;
+  cursor: pointer;
+}
+
+.ferro {
+  background: var(--iron);
+}
+.bronze {
+  background: var(--bronze);
+}
+.prata {
+  background: var(--silver);
+}
+.ouro {
+  background: var(--gold);
+}
+.platina {
+  background: var(--platinum);
+}
+.ascendente {
+  background: var(--ascending);
+}
+.imortal {
+  background: var(--imortal);
+}
+.radiante {
+  background: var(--radiant);
+}

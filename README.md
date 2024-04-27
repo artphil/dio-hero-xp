@@ -2,7 +2,7 @@
 
 Classificador de nível de heroi
 
-- Desafio Bootcamp Santander DIO [Jogue aqui]()
+- Desafio Bootcamp Santander DIO [Jogue aqui](https://artphil.github.io/dio-hero-xp/)
 
 ## Instruções para entrega
 
